@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProTwo</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <h1>Hello this is project two</h1>
+    <div class="container">
+        <div class="jumbotron">
+            {{insert_me}}
+
+            <p>Go to /users to sign up</p>
+        
+            <img src="{% static 'images/pic.jpg' %}" alt="Snowboarder pic didn't show">
+        
+        </div>
+    </div>
+
+    <!-- <p>
+        <a href="">Help</a>
+    </p> -->
+
+</body>
+</html>
