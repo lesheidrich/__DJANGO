@@ -642,9 +642,82 @@ def register(request):
 after media url
 `LOGIN_URL = 'basic_app/user_login'`
 
-
-
 ***
+
+### DEPLOYMENT
+**git**
+```
+git init
+git remote add origin git@github.com:username/repository.git
+git add .
+git commit -m "message"
+git branch  // master or main
+git push -u origin master
+
+git status
+git rm -r --cached path/to/file_or_directory
+git checkout -b new-branch-name     // new branch   
+git checkout branch-name            // switch
+git merge branch-name
+git pull origin branch-name
+```
+
+**bash**
+```
+mkvirtualenv --python=python3.5 djangoEnv
+pip list   # all packages already installed
+pip install -U django==1.10.5       # whatever version was using on pc 
+    -->python
+    -->import django.__version__
+which django-admin.py   # check which venv it uses
+git clone https://github.com...
+cd to manage.py's dir
+python manage.py migrate
+python manage.py makemigrations app_name
+python manage.py migrate
+python manage.py createsuperuser
+```
+
+**dashboard/web/add new web app**
+virtualenv: `/home/lesh/projectname(view up top)/.virtualenvs/vendvname`
+start console to make sure it's correct
+
+**code/source code**
+start console in venv
+`ls`
+cd into project manage.py dir
+copy project url
+
+wsgi config file
+uncomment django lines
+change path to point to project
+
+after if path not in sys.path
+```
+os.chdir(path)
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "learning_templates.settings") #where settings.py file is
+
+import django
+django.setup()
+from django.core.wsgi import get_wsgi_application
+application = get_wsgi_application()
+```
+
+**web/static files**
+`/static/admin`  `/home/lesh/.virtualenvs/djangoEnv/lib/python3.11/site-packages/django/contrib/admin/static/admin`
+`static`  `/home/lesh/../static/`
+reload web app
+turn off debug mode
+
+**disallowed host**
+files / project name in dir / settings
+`ALLOWED_HOSTS = ['lesh.pythonanywhere.com']`
+**static**
+
+**debug mode off**
+files/project/settings
+26 `DEBUG = False`
+
 
 ``pip freeze > requirements.txt``
 ``pip install -r requirements.txt``
