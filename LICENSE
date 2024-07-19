@@ -1,0 +1,89 @@
+                      GNU GENERAL PUBLIC LICENSE
+                         Version 3, 29 June 2007
+
+ Copyright (C) 2024  lesheid
+ Copyright (C) 2024  Free Software Foundation, Inc.
+ <https://fsf.org/>
+
+ Everyone is permitted to copy and distribute verbatim copies
+ of this license document, but changing it is not allowed.
+
+                               Preamble
+
+  The GNU General Public License is a free software license that guarantees
+  end users the freedom to run, study, share, and modify the software.
+  It is designed to ensure that the software remains free for all its users.
+
+  This License Agreement is based on the principles of copyleft, which means
+  that derivative works must be distributed under the same license. By using
+  this license, you are ensuring that your software remains free and that
+  its users retain the same freedoms that you enjoyed.
+
+  TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+
+  0. Definitions.
+    - "This License" refers to version 3 of the GNU General Public License.
+    - "Copyright" also means copyright-like laws that apply to other kinds
+      of works, such as semiconductor masks.
+    - "The Program" refers to any copyrightable work licensed under this
+      License. Each licensee is addressed as "you".
+    - "Source Code" refers to the preferred form of the work for making
+      modifications to it. "Object Code" refers to any non-source form of a
+      work.
+    - "Work based on the Program" means either the Program or a work based
+      on the Program.
+    - "The Library" refers to a work that is intended to be linked with
+      the Program to produce derivative works.
+    - "Combined Work" means a work produced by combining the Program or a
+      work based on the Program with other code not covered by this License.
+    - "User" means any person who uses the software.
+
+  1. Source Code.
+     - The source code for the Program must be made available to users,
+       and any changes made to it must also be available under this license.
+
+  2. Copyleft.
+     - Copyleft means that derivative works must be distributed under the
+       same license. This allows users to freely use, modify, and share
+       the software and its derivatives.
+
+  3. Conveying Modified Source Versions.
+     - You must provide the modified source code along with the modified
+       version of the Program. This allows others to benefit from your
+       modifications and ensures that the software remains free.
+
+  4. Additional Permissions.
+     - You may add additional permissions to the license, but these
+       permissions must be compatible with the GPL.
+
+  5. No Warranty.
+     - The software is provided "as-is" without any warranty. The authors
+       are not responsible for any damages that may arise from using the
+       software.
+
+  6. Endorsement.
+     - You may not use the name of the Free Software Foundation or the
+       authors to endorse or promote products derived from this software.
+
+  7. License Compatibility.
+     - The GPL is designed to be compatible with other licenses. You may
+       combine GPL-licensed code with code under other licenses, provided
+       that the combined work is also licensed under the GPL.
+
+  8. Termination.
+     - The license terminates automatically if you violate any of its terms.
+       You may be able to reinstate it by complying with the terms.
+
+  9. Acceptance.
+     - By using the software, you agree to the terms of this license.
+
+   Additional Terms:
+   - You may add additional terms to the license, but they must not
+     conflict with the terms of the GPL.
+
+  For more information, see <https://www.gnu.org/licenses/gpl-3.0.html>.
+
+  This license is based on the GPL version 3, and any modifications to
+  this text must be compliant with the GPL terms.
+
+                      END OF TERMS AND CONDITIONS

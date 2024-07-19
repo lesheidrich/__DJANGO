@@ -1,0 +1,47 @@
+# Byte-compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment variables
+.env
+
+# Django specific
+db.sqlite3
+*.sqlite3
+media/
+staticfiles/
+
+# Virtual environment
+venv/
+env/
+*.egg-info/
+.eggs/
+
+# IDE specific files
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.suo
+
+# Logs
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Miscellaneous
+*.bak
+*.tmp
+*.swp
+
+# Coverage reports
+.coverage
+htmlcov/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
